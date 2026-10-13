@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Campus Club Membership</title>
+        <div class="topnav">
+            <style>
+             ul {
+             list-style-type: none;
+             margin: 0;
+             padding: 0;
+             overflow: hidden;
+             background-color: #333333;
+            }
+            
+            ul li {
+                float: left;
+            }
+            
+            ul li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+            }
+            ul li :hover {
+                background-color: #333;
+            }
+
+            .card{
+                width: 400px;
+                padding: 15px;
+                border: 2px;
+                border-radius: 10px;
+            }
+        </style>
+    </header>
+    <body>
+              
+            <ul >
+                <li><a href="">Home</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Join</a></li>
+            </ul>
+
+        </div>
+        <h1 align="center">Programming	Club</h1>
+        	<div class="card">
+                <form action="">
+                    <label for="fname">Full name: </label>
+                    <input type="text" id="fname"><br><br>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email"><br><br>
+                    <label for="stid">Student ID: </label>
+                    <input type="number" id="stid"><br><br>
+                    <label for="age">Age: </label>
+                    <input type="number" id="age"><br><br>
+                    <label>Membership Type:</label>
+                    <input type="radio" id="general" name="membertype" value="General" required>
+                    <label for="general">General</label>
+                    <input type="radio" id="executive" name="membertype" value="Executive">
+                    <label for="executive">Executive</label>
+                    <br><br>
+                    <label for="Preferred Club">Choose a car:</label>
+                    <select name="club" id="club">
+                        <option value="Business">Business</option>
+                        <option value="Computer">Computer</option>
+                        <option value="Entertainment">Entertainment</option>
+                    </select>
+                    <label for="join">Why do you want to join?</label>
+                    <textarea maxlength="200" name="" id=""></textarea>
+                </form>
+            </div>
+    </body>
+</html>
